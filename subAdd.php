@@ -32,7 +32,7 @@ $conn->close();
 <?php
 echo $_SERVER['REMOTE_ADDR'];
 ?>
-<form action="index.php" method="POST">
+<form action="subAdd.php" method="POST">
 <input type="number" name="qno" placeholder="Enter No of Questions">
 <input type="text" name="tname" placeholder="New Table Name">
 <input type="submit" name="submit" value="Submit">
