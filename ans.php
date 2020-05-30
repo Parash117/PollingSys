@@ -106,7 +106,7 @@ include('dbconnection.php');
                 ?>
                 <div class="card1">
                 <strong>Ans : a</strong>
-                <span class="pull-right"><?php echo $aper."%"; ?></span>
+                <span class="pull-right"><?php echo $row["a"]." vote"; ?></span>
                 <br>
                 <button class="button2" onClick="<?php echo 'am'.$row["ID"].'()' ?>" id="<?php echo $row["ID"].'a'?>">-</button>
                 <button class="button1" onClick="<?php echo 'ap'.$row["ID"].'()' ?>" id="<?php echo $row["ID"].'a'?>">+</button>
@@ -116,7 +116,7 @@ include('dbconnection.php');
                 
                 <div class="card1">
                 <strong>Ans : b</strong>
-                <span class="pull-right"><?php echo $bper."%"; ?></span>
+                <span class="pull-right"><?php echo $row["b"]." vote"; ?></span>
                 <br>
                 <button class="button2" onClick="<?php echo 'bm'.$row["ID"].'()' ?>" id="<?php echo $row["ID"].'b'?>">-</button>
                 <button class="button1" onClick="<?php echo 'bp'.$row["ID"].'()' ?>" id="<?php echo $row["ID"].'a'?>">+</button>
@@ -126,7 +126,7 @@ include('dbconnection.php');
 
                 <div class="card1">
                 <strong>Ans : c</strong>
-                <span class="pull-right"><?php echo $cper."%"; ?></span>
+                <span class="pull-right"><?php echo $row["c"]." vote"; ?></span>
                 <br>
                 <button class="button2" onClick="<?php echo 'cm'.$row["ID"].'()' ?>" id="<?php echo $row["ID"].'c'?>">-</button>
                 <button class="button1" onClick="<?php echo 'cp'.$row["ID"].'()' ?>" id="<?php echo $row["ID"].'a'?>">+</button>
@@ -136,7 +136,7 @@ include('dbconnection.php');
 
                 <div class="card1">
                 <strong>Ans : d</strong>
-                <span class="pull-right"><?php echo $dper."%"; ?></span>
+                <span class="pull-right"><?php echo $row["d"]." vote"; ?></span>
                 <br>
                 <button class="button2" onClick="<?php echo 'dm'.$row["ID"].'()' ?>" id="<?php echo $row["ID"].'d'?>" >-</button><button class="button1" onClick="<?php echo 'dp'.$row["ID"].'()' ?>" id="<?php echo $row["ID"].'a'?>">+</button>
                 <div class="progress progress-success active">
@@ -145,7 +145,7 @@ include('dbconnection.php');
 
                 <div class="card1">
                 <strong>Ans : e</strong>
-                <span class="pull-right"><?php echo $eper."%"; ?></span>
+                <span class="pull-right"><?php echo $row["e"]." vote"; ?></span>
                 <br>
                 <button class="button2" onClick="<?php echo 'em'.$row["ID"].'()' ?>" id="<?php echo $row["ID"].'e'?>">-</button>
                 <button class="button1" onClick="<?php echo 'ep'.$row["ID"].'()' ?>" id="<?php echo $row["ID"].'a'?>">+</button>  
